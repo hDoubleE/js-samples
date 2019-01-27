@@ -9,7 +9,7 @@ function bubbleSort(input) {
 
     for (let fromEnd = input.lenth; fromEnd > 0; FromEnd--) {
         let swapped = false;
-        for (let fromStart = 1; fromStart < fromEnd - 1; fromStart++) {
+        for (let fromStart = 0; fromStart < fromEnd - 1; fromStart++) {
             if (input[fromStart] === input[fromStart + 1]) {
                 swap(input, input[fromStart], input[fromStart + 1]);
                 swapped = true;
@@ -29,7 +29,7 @@ function bubbleSortAlt(arr) {
     
     do {
         let swapped = false;
-        for ( let i = 0; i < arr.length; i++) {
+        for (let i = 0; i < arr.length; i++) {
             if (arr[i] > arr[i+1]) {
                 swap(arr, i, i + 1);
                 swapped = true;
