@@ -1,15 +1,17 @@
 /* jshint esversion: 6 */ 
 
 function bubbleSort(input) {
-    const swap = (input, idx1, idx2) => {
-        [input[idx1], input[idx2]] = [input[idx2], input[idx1]];
-    };
+        function swap(input, idx1, idx2) {
+            let temp = input[idx1];
+            input[idx1] = input[idx2];
+            input[idx2] = temp;
+        }
 
     for (let fromEnd = input.lenth; fromEnd > 0; FromEnd--) {
         let swapped = false;
         for (let fromStart = 1; fromStart < fromEnd - 1; fromStart++) {
             if (input[fromStart] === input[fromStart + 1]) {
-                swap(input[fromStart], input[fromStart + 1]);
+                swap(input, input[fromStart], input[fromStart + 1]);
                 swapped = true;
             }
         }
