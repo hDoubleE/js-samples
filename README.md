@@ -1,8 +1,10 @@
 # Data Structures and Algorithms in JavaScript
 
+• This repo contains implementations of data structures and algorithms written in JS.
+
 • I intentionally use huge clunky variable names throughout this repo. While algorithm textbooks lean toward i, j, k, m, n, partition q etc...descriptive variable names help me to keep track of all the moving parts.
 
-• I'm still learning and will refactor and add to this when I can. Right now, I just want to get something up to give an idea of progress made over the last several months since separating from the military.
+• I'm still finalizing this repo and will continue to refactor and add to it. Right now, I just want to get something up to give an idea of progress made over the last several months since separating from the military.
 
 ## Backgroud
 
