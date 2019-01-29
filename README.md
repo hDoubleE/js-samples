@@ -6,7 +6,7 @@
 
 ## Backgroud
 
-JavaScript was the first programming language I learned. I taught myself while deployed on a submarine submerged under the ocean using a secret government laptop, a browser and a book. No internet. They wouldn't let me install Node in port, let alone an IDE or compiler. It took me days to master single concepts, with no one to turn to for help. I had no sense of algorithmic complexity or efficiency and was just ecstatic to see my nested for loops printing to an IE console.
+JavaScript was the first programming language I learned. I taught myself in my spare time, while deployed on a submarine, submerged under the ocean using a laptop, a browser and a book, with no internet. Due to protocols, I couldn't install Node, let alone an IDE or compiler. I had no sense of algorithmic complexity or efficiency and was just happy to see my nested for loops printing to an IE console.
 
 ### I <3 JS
 

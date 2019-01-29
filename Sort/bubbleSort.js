@@ -7,7 +7,7 @@ function bubbleSort(input) {
             input[idx2] = temp;
         }
 
-    for (let fromEnd = input.lenth; fromEnd > 0; FromEnd--) {
+    for (let fromEnd = input.length; fromEnd > 0; FromEnd--) {
         let swapped = false;
         for (let fromStart = 0; fromStart < fromEnd - 1; fromStart++) {
             if (input[fromStart] === input[fromStart + 1]) {

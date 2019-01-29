@@ -1,18 +1,19 @@
 /* jshint esversion: 6 */
 
 function binarySearch(input, targetValue) {
-    let start = 0;
-    let end = input.length - 1;
-    let middle = Math.floor(start + end) / 2;
+    let lower = 0;
+    let upper = input.length - 1;
+    let middle = Math.floor(lower + upper) / 2;
 
-    while (middle !== val && start < end) {
+    while (middle !== targetValue && lower < upper) {
         if (targetValue < input[middle])
         {
-            end = middle - 1;
+            upper = middle - 1;
         }
         else {
-            start = middle + 1;
+            lower = middle + 1;
         }
+        middle = Math.floor(lower + upper) / 2;
     }
     if (targetValue === input[middle]) {
         return middle;
